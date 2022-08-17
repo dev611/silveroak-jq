@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#div1").fadeTo("slow",0.10);
+    $("#div2").fadeTo("slow",0.20);
+    $("#div3").fadeTo("slow",0.30);
+  });
+});
+</script>
+</head>
+<body>
+
+
+<button>Click to fade To boxes</button><br><br>
+
+<div id="div1" style="width:80px;height:80px;background-color:rgb(249, 121, 29);"> hi</div><br>
+<div id="div2" style="width:180px;height:180px;background-color:rgb(255, 251, 251);"> hello</div><br>
+<div id="div3" style="width:280px;height:280px;background-color:rgb(14, 221, 31);">byeee</div>
+
+</body>
+</html>

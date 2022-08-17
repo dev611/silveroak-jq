@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+  $(".button").click(function(){
+    
+  });
+});
+
+    </script>
+<style> 
+
+
+@keyframes myfirst {
+  0%   {background: red; left: 0px; top: 0px;}
+  25%  {background: yellow; left: 200px; top: 0px;}
+  50%  {background: blue; left: 200px; top: 200px;}
+  75%  {background: green; left: 0px; top: 200px;}
+  100% {background: red; left: 0px; top: 0px;}
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #ee19dc;
+  box-shadow: 0 5px rgb(234, 195, 25);
+  transform: translateY(4px);
+}
+</style>
+</head>
+
+<body>
+
+    
+    <button class="button">Click Me</button> 
+    <br/><br/>
+    <div style=" width: 100px;height: 100px; background: red; position: relative;animation: myfirst 5s 2;animation-direction: alternate;"></div>
+
+</body>
+</html>
